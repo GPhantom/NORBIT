@@ -23,10 +23,6 @@ lcd.clear()
 default()
 x = Servo(3)
 
-
-
-
-
 try:
     connection = SerialManager()
     a = ArduinoApi (connection = connection)
@@ -124,7 +120,6 @@ def motion():
         return False
 
 
-
 def slp():
     lcd.clear()
     
@@ -133,8 +128,6 @@ def slp():
     if m == True:
         wakeup()
     
-
-
 
 def calibrate():
     lcd.clear()
@@ -157,7 +150,6 @@ def calibrate():
     default()
     
 
-
 def wakeupgesture():
     x.write(90)
     x.write(45)
@@ -165,7 +157,6 @@ def wakeupgesture():
     x.write(135)
     sleep(0.5)
     x.write(90)
-
 
 
 def wakeup():
@@ -179,7 +170,6 @@ def wakeup():
     sleep(2)
     default()
     main()
-
 
 
 def T():
@@ -240,5 +230,4 @@ def terminalshout(msg):
 
 
 main()
-
 
