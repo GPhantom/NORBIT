@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-
+'''
+Test your agent entities and intents
+'''
 from __future__ import print_function
 
 import os
@@ -19,7 +21,7 @@ except ImportError:
 
     import apiai
 
-
+#Add your api.ai access token here
 CLIENT_ACCESS_TOKEN = 'Your_api.ai_Agent_Token_Here'
 
 
