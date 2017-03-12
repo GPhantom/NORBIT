@@ -21,7 +21,7 @@ except ImportError:
 
     import apiai
 
-#Add your api.ai access token here
+# Add your api.ai access token here
 CLIENT_ACCESS_TOKEN = 'Your_api.ai_Agent_Token_Here'
 
 
